@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>dom bookstore</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <div id="page-banner">
+        <h1 class="title">bookstore</h1>
+
+        <p>Book for Zhengyang</p>
+        <a href="http://www.thenetniga.co.uk">click here</a>
+        <form id="search-books">
+          <input type="text" placeholder="Search books..." />
+
+        </form>
+
+      </div>
+
+    </header>
+    <div id="book-list">
+      <h2 class="title">Books to Read</h2>
+      <ul>
+        <li>
+          <span class="name">name of the wind</span>
+          <span class="delete">delete</span>
+        </li>
+        <li>
+          <span class="name">The Wise Man's Fear</span>
+          <span class="delete">delete</span>
+        </li>
+        <li>
+        <span class="name">Kafka on the Shore</span>
+        <span class="delete">delete</span>
+        </li>
+        <li>
+          <span class="name">The Master and the Margarita</span>
+          <span class="delete">delete</span>
+        </li>
+
+      </ul>
+
+    </div>
+    <form id="add-book">
+      <input type="checkbox" id="hide"/>
+      <label for="hide">Hide all Books</label>
+      <input type="text" placeholder="Add a book..." />
+      <button>Add</button>
+
+    </form>
+    <div id="tabbed-content">
+      <ul class="tabs">
+        <li data-target="#about"class="active">About</li>
+        <li data-target="#contact">Contact</li>
+
+      </ul>
+      <div class="panel active"id="about">
+        <p>Content for about tab...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      </div>
+      <div class="panel" id="contact">
+        <p>Content for contact tab...</p>
+        <p>Lorem ipsum</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
